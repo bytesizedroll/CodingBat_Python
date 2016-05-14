@@ -18,3 +18,25 @@ def monkey_trouble(a_smile, b_smile):
     return True
   else:
     return False
+
+
+# Sum Double
+# Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+def sum_double(a, b):
+    if a != b:
+      return a + b
+    else:
+      return 2 * (a + b)
+
+
+# Diff 21
+# Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is
+# over 21.
+
+def diff21(n):
+  if n > 21:
+   return (n - 21) * 2
+  else:
+    return 21 - n
+
