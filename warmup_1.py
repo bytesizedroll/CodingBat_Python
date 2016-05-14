@@ -40,3 +40,23 @@ def diff21(n):
   else:
     return 21 - n
 
+
+# Parrot Trouble
+# We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if
+# the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble.
+
+def parrot_trouble(talking, hour):
+  if (hour < 7 or hour > 20) and talking:
+    return True
+  else:
+    return False
+
+
+# Makes 10
+# Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10.
+
+def makes10(a, b):
+  if ((a + b) == 10) or (a == 10 or b == 10):
+    return True
+  else:
+    return False
